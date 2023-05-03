@@ -1,0 +1,2 @@
+Kolitsas_FR|baseline_wiki| --entity_vecs_name=ent_vecs_FR.npy --wikiid2nnid_name=wikiid2nnid_FR.txt --train_datasets=WIKIMINI_w2vFR_train --el_datasets=WIKIMINI_w2vFR_train_z_WIKIMINI_w2vFR_dev --nepoch_max=50
+Kolitsas_FR|baseline_wiki| --entity_vecs_name=ent_vecs_FR.npy --wikiid2nnid_name=wikiid2nnid_FR.txt --train_datasets=DBMINI_w2vFR_train --el_datasets=DBMINI_w2vFR_train_z_DBMINI_w2vFR_dev --nepoch_max=50

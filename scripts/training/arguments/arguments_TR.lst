@@ -1,0 +1,2 @@
+Kolitsas_FR|transfert_TR| --entity_vecs_name=ent_vecs_FR.npy --wikiid2nnid_name=wikiid2nnid_FR.txt --train_datasets=TR_w2vFR_train --el_datasets=TR_w2vFR_train_z_TR_w2vFR_dev_z_TR_w2vFR_test --nepoch_max=150 --transfert_learning=True --pretrained_model=data/final_model_FR.pkl
+Kolitsas_FR|baseline_TR| --entity_vecs_name=ent_vecs_FR.npy --wikiid2nnid_name=wikiid2nnid_FR.txt --train_datasets=TR_w2vFR_train --el_datasets=TR_w2vFR_train_z_TR_w2vFR_dev_z_TR_w2vFR_test --nepoch_max=150

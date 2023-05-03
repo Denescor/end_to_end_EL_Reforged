@@ -1,0 +1,289 @@
+Namespace(calculate_stats=True, cand_ent_num=30, char_freq_thr=1, chunking='per_document', context_bert=False, create_entity_universe=False, entity_extension=None, experiment_name='corefmerge_768', include_wikidumpRLTD=False, lowercase_p_e_m=False, lowercase_spans=False, max_mention_width=10, p_e_m_choice='yago', persons_coreference=True, persons_coreference_merge=True, word2vec='google768', word_bert=False, word_freq_thr=1)
+Processing dataset:  ace2004.txt
+Processing dataset:  aida_dev.txt
+Processing dataset:  aida_test.txt
+Processing dataset:  aida_train.txt
+Processing dataset:  aquaint.txt
+Processing dataset:  clueweb.txt
+Processing dataset:  msnbc.txt
+Processing dataset:  wikipedia.txt
+Processing dataset:  TR_dev.txt
+Processing dataset:  TR_test.txt
+Processing dataset:  TR_train.txt
+not_in_word2vec_cnt =  1508920
+all_words_cnt =  5194309
+some frequency statistics. The bins are [...) 
+word  frequency histogram, edges:  [1, 2, 3, 6, 11, 21, 31, 51, 76, 101, 201, inf]
+absolute values:         [17426  6841  8406  5758  4650  2227  2335  1515   911  1645  1751]
+absolute cumulative (right to left):     [53465 36039 29198 20792 15034 10384  8157  5822  4307  3396  1751]
+probabilites cumulative (right to left): [1.         0.67406715 0.54611428 0.38888993 0.2811933  0.19422052
+ 0.1525671  0.10889367 0.08055737 0.06351819 0.0327504 ]
+character  frequency histogram, edges:  [1, 6, 11, 21, 51, 101, 201, 501, 1001, 2001, inf]
+absolute values:         [1102   91   77   68   34   17   18   19    8  100]
+absolute cumulative (right to left):     [1534  432  341  264  196  162  145  127  108  100]
+probabilites cumulative (right to left): [1.         0.28161669 0.22229465 0.17209909 0.12777053 0.10560626
+ 0.09452412 0.08279009 0.07040417 0.06518905]
+datasets:  ['ace2004.txt', 'aida_dev.txt', 'aida_test.txt', 'aida_train.txt', 'aquaint.txt', 'clueweb.txt', 'msnbc.txt', 'wikipedia.txt', 'TR_dev.txt', 'TR_test.txt', 'TR_train.txt']
+load disambiguations. wall time: 0.0026337623596191405  minutes
+disambiguations_errors:  0
+load wiki_name_id_map. wall time: 0.06385223865509033  minutes
+wiki_name_id_map_errors:  0
+duplicate names:  0
+duplicate ids:  0
+duplicate_mentions_cnt:  0
+end of p_e_m reading. wall time: 0.09181577761967977  minutes
+p_e_m_errors:  0
+incompatible_ent_ids:  0
+load disambiguations. wall time: 0.002454229195912679  minutes
+disambiguations_errors:  0
+load wiki_name_id_map. wall time: 0.06392870744069418  minutes
+wiki_name_id_map_errors:  0
+duplicate names:  0
+duplicate ids:  0
+persons not_found_cnt: 861289
+words in vocabulary:  53466
+characters in vocabulary:  1535
+processing file:  ../data/new_datasets/ace2004.txt
+../data/new_datasets/ace2004.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 18
+gm_misses 78
+gm_this_file 143
+recall %     :  32.86713286713287  %
+ground_truth_errors_cnt = 130
+cand_entities_not_in_universe_cnt = 81
+encoder samples_with_errors = 0
+records_cnt =  35
+processing file:  ../data/new_datasets/aida_dev.txt
+../data/new_datasets/aida_dev.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 895
+gm_misses 1759
+gm_this_file 3080
+recall %     :  13.831168831168828  %
+ground_truth_errors_cnt = 1562
+cand_entities_not_in_universe_cnt = 1897
+encoder samples_with_errors = 0
+records_cnt =  214
+processing file:  ../data/new_datasets/aida_test.txt
+../data/new_datasets/aida_test.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 959
+gm_misses 1530
+gm_this_file 2931
+recall %     :  15.080177413851924  %
+ground_truth_errors_cnt = 1412
+cand_entities_not_in_universe_cnt = 2044
+encoder samples_with_errors = 0
+records_cnt =  226
+processing file:  ../data/new_datasets/aida_train.txt
+../data/new_datasets/aida_train.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 3689
+gm_misses 6713
+gm_this_file 12282
+recall %     :  15.30695326494056  %
+ground_truth_errors_cnt = 6196
+cand_entities_not_in_universe_cnt = 7947
+encoder samples_with_errors = 0
+records_cnt =  932
+processing file:  ../data/new_datasets/aquaint.txt
+../data/new_datasets/aquaint.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 13
+gm_misses 109
+gm_this_file 229
+recall %     :  46.724890829694324  %
+ground_truth_errors_cnt = 205
+cand_entities_not_in_universe_cnt = 155
+encoder samples_with_errors = 0
+records_cnt =  49
+processing file:  ../data/new_datasets/clueweb.txt
+../data/new_datasets/clueweb.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 777
+gm_misses 2087
+gm_this_file 4663
+recall %     :  38.58031310315248  %
+ground_truth_errors_cnt = 4285
+cand_entities_not_in_universe_cnt = 3445
+encoder samples_with_errors = 0
+records_cnt =  319
+processing file:  ../data/new_datasets/msnbc.txt
+../data/new_datasets/msnbc.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 102
+gm_misses 174
+gm_this_file 349
+recall %     :  20.916905444126076  %
+ground_truth_errors_cnt = 328
+cand_entities_not_in_universe_cnt = 210
+encoder samples_with_errors = 0
+records_cnt =  20
+processing file:  ../data/new_datasets/wikipedia.txt
+../data/new_datasets/wikipedia.txt  chunker parsing errors:  0
+max_mention_width_violations : 5
+gt_misses 2025
+gm_misses 4731
+gm_this_file 6756
+recall %     :  0.0  %
+ground_truth_errors_cnt = 135
+cand_entities_not_in_universe_cnt = 2931
+encoder samples_with_errors = 0
+records_cnt =  320
+processing file:  ../data/new_datasets/TR_dev.txt
+../data/new_datasets/TR_dev.txt  chunker parsing errors:  0
+max_mention_width_violations : 2
+gt_misses 866
+gm_misses 2809
+gm_this_file 4530
+recall %     :  18.87417218543046  %
+ground_truth_errors_cnt = 4150
+cand_entities_not_in_universe_cnt = 2767
+encoder samples_with_errors = 0
+records_cnt =  720
+processing file:  ../data/new_datasets/TR_test.txt
+chunker parse error:  ('Dodge_Super_Bee', ['Les', 'Dodge', 'Super', 'Bee', 'étaient', 'des', 'muscle', 'cars', 'de', 'production', 'limitée', 'que', 'Dodge', ',', 'une', 'division', 'de', 'Chrysler', ',', 'a', 'produit', 'de', '1968', 'à', '1971', '.', 'La', '“mascotte”', 'du', 'logo', 'Super', 'Bee', 'a', 'été', 'ressuscitée', 'pour', 'agrémenter', 'les', 'custodes', 'des', 'modèles', 'Ram', 'Rumble', 'Bee', '2004', ',', 'et', 'des', 'Dodge', 'Charger', 'Super', 'Bee', 'du', 'millésime', '2007.Le', 'premier', 'Super', 'Bee', 'était', 'élaboré', 'à', 'partir', 'du', 'modèle', 'Dodge', 'Coronet', '.', 'Il', 'n’était', 'disponible', 'qu’en', 'coupé', 'et', 'en', 'cabriolet', '(très', 'rare)', 'et', 'construits', 'entre', '1968', 'et', '1970', '.', 'C’était', 'la', 'voiture', 'musclée', "d'entrée", 'de', 'gamme,', 'l’équivalent', 'du', 'modèle', 'Plymouth', 'Road', 'Runner', ',', 'et', 'coûtait', '3', '027', 'dollars', '.', 'On', 'pouvait', 'cocher', 'l’option', 'Hemi', ',', 'qui', 'a', 'elle', 'seule', 'augmentait', 'la', 'facture', 'de', '33', '%', '(seulement', '125', 'trouveront', 'acheteur).', 'Le', 'modèle', '1968', 'était', 'un', '2', 'portes', 'avec', 'deux', 'moteurs', 'au', 'choix', ';', 'le', 'V8', '383', 'Magnum', 'de', '335', 'hp,', 'et', 'l’optionnel', '426', 'Hemi', 'confessé', 'à', '425', 'hp.Les', 'Super', 'Bee', 'disposent', 'd’une', 'suspension', 'plus', 'robuste,', 'la', 'boîte', 'manuelle', 'optionnelle', 'à', 'quatre', 'rapports', 'Mopar', 'A-833', 'et', 'quatre', 'pneus', 'de', 'performants.', 'Sur', 'la', 'custode,', 'une', 'décalque', 'représentant', 'une', 'abeille', 'casquée', 'qui', 'charge', 'tête', 'baissée', 'est', 'harmonisée', 'aux', 'bandes', 'verticales', 'R/T.Une', 'version', 'hardtop', 'vient', 'rejoindre', 'le', 'coupé', 'au', 'catalogue', 'de', 'l’année', '1969', ',', 'avec', 'l’induction', 'd’air', 'frais', 'par', 'prises', 'd’air', 'sur', 'le', 'capot', 'nommée', '«\xa0Ramcharger', '».', 'Le', '«\xa0six-pack', '»', '(Trois', 'carburateurs', 'double', 'corps', '(barils),', 'une', 'version', 'vitaminée', 'du', 'moteur', 'Dodge', '440', 'pouces', 'cubes', 'est', 'venue', 's’ajouter', 'à', 'la', 'liste', 'd’options', 'en', 'milieu', "d'année.", 'Cette', 'option', 'coûtait', '463', 'dollars.', 'Les', 'modèles', 'de', 'l’année', '1969', 'a', 'donné', 'des', 'maux', 'de', 'tête', 'aux', 'acheteurs', 'de', 'Chrysler', 'avec', 'les', 'choix', 'de', 'moteurs.', 'Le', 'moteur', 'de', 'base', 'est', 'le', '383', 'pouces', 'cubes', 'hautes', 'performances,', 'le', '440', 'Six', 'Pack,', 'et', 'le', '426', 'Hemi.', 'Le', 'V8', '440', 'Magnum', 'n’était', 'pas', 'disponible', 'au', 'catalogue', 'des', 'options', 'et', 'était', 'réservé', 'aux', 'Coronet', 'R/T.', 'En', '1970,', 'les', 'Super', 'Bee', 'ont', 'reçu', 'une', 'calandre', 'retouchée', 'qui', 'représentait', 'deux', 'ovales', 'calquées', 'sur', 'la', 'forme', 'des', 'ailes', 'd‘abeille.', 'Ce', 'nouveau', 'look', 'a', 'rebuté', 'beaucoup', 'd’acheteurs', 'et', 'les', 'ventes', 'ont', 'drastiquement', 'chuté.', 'Malgré', 'ce', 'nouveau', 'look,', 'les', 'moteurs', 'aussi', 'bien', 'que', 'le', 'capot', '"ramcharger"', 'ont', 'été', 'recopiés', 'au', 'catalogue.Moteurs', ':Production', ':Alors', 'que', 'la', 'Dodge', 'Coronet', 'de', 'l’année', 'modèle', '1971', 'n’ait', 'été', 'disponible', 'qu’en', 'version', 'berline', 'quatre', 'portes', 'et', 'familiale', '(break,', 'station', 'wagon),', 'les', 'modèles', 'apposés', 'du', 'logo', 'Super', 'Bee', 'ont', 'été', 'le', 'Dodge', 'Charger', '.', 'La', 'Charger', 'ayant', 'déjà', 'sa', 'version', 'musclée', 'R/T,', 'les', 'Super', 'Bee', 'ont', 'été', 'rétrogradés', 'au', 'rang', 'd’entrée', 'de', 'gamme', 'et', 'coûtaient', '3.271', 'dollars.', '4.144', 'furent', 'construits,', 'alors', 'que', 'seulement', '22', 'l’ont', 'été', 'avec', 'un', 'moteur', 'Hemi', '.1971', 'est', 'la', 'première,', 'seule', 'et', 'dernière', 'année', 'où', 'le', 'moteur', 'de', 'base', 'des', 'Super', 'Bee', 'était', 'un', '340', 'pouces', 'cubes.', 'Nous', 'sommes', 'à', 'l’aube', 'de', 'la', 'première', 'grande', 'crise', 'du', 'pétrole.Le', 'moteur', 'V8', '440', 'Magnum', 'n’était', 'pas', 'disponible', 'en', 'option', 'sur', 'les', 'Super', 'Bee', '1971', '(la', 'description', 'sur', 'wikipédia', 'anglais', 'fait', 'mention', 'que', '26', 'ont', 'néanmoins', 'été', 'construits).Moteurs', ':Une', 'nouvelle', 'version', 'd’une', 'Super', 'Bee', 'est', 'disponible', 'en', '2007', ':', 'il', "s'agit", "d'une", 'version', 'très', 'limitée', 'de', 'la', 'Dodge', 'Charger', 'SRT8', 'piquée', 'par', 'une', 'abeille.', 'Elle', 'possède', 'une', 'superbe', 'carrosserie', 'de', 'couleur', 'jaune', 'Detonator', 'Yellow.', 'Pour', 'plus', 'd’exclusivité,', 'une', 'seule', 'a', 'été', 'rendue', 'disponible', 'avec', 'une', 'robe', 'noire', 'Chrystal', 'Prowler.', 'Ces', 'Dodge', 'Super', 'Bee', 'SRT8', 'sont', 'équipées', 'd’un', 'moteur', 'Hemi', '6,1', 'litres', 'de', '425', 'ch.<gallery>Image:SA550140.JPG|2007', 'Dodge', 'Charger', 'SRT-8', 'Super', 'Bee', '#711MMEND', 'Image:2007', 'Dodge', 'Charger', 'SRT-8', 'Super', 'Bee.jpg|2007', 'Dodge', 'Charger', 'SRT-8', 'Super', 'Bee', '#711MMEND', 'Image:SA550143.JPG|2007', 'Dodge', 'Charger', 'SRT-8', 'Super', 'Bee', '#711MMEND', '</gallery>Au', 'tournant', 'des', 'années', '70,', 'le', 'marché', 'mexicain', 'vendait', 'une', 'Dodge', 'Dart', 'à', 'laquelle', 'ils', 'ajoutaient', 'la', '“sauce”', 'Super', 'Bee', ';', 'ces', 'Super', 'Bee', 'étaient', 'élaborés', 'sur', 'la', 'plate-forme', 'compacte', 'Mopar', 'A', 'jusqu’en', '1976,', 'et', 'sur', 'la', 'plate-forme', 'F', '(en', 'maquillant', 'un', 'coupé', 'Dodge', 'Aspen', ')', 'entre', '1977-79', '(vendues', 'au', 'Mexique', 'comme', 'part', 'entière', 'de', 'la', 'série', 'Dodge', 'Valiant', 'Volare).'], [6, 193, 558, 570, 577], [8, 194], ['172856', '3628798', '13199', '13199', '13199'])
+../data/new_datasets/TR_test.txt  chunker parsing errors:  1
+max_mention_width_violations : 2
+gt_misses 1952
+gm_misses 5126
+gm_this_file 8715
+recall %     :  18.783706253585773  %
+ground_truth_errors_cnt = 8077
+cand_entities_not_in_universe_cnt = 6137
+encoder samples_with_errors = 0
+records_cnt =  1429
+processing file:  ../data/new_datasets/TR_train.txt
+../data/new_datasets/TR_train.txt  chunker parsing errors:  0
+max_mention_width_violations : 6
+gt_misses 9955
+gm_misses 14989
+gm_this_file 35310
+recall %     :  29.357122628150666  %
+ground_truth_errors_cnt = 31278
+cand_entities_not_in_universe_cnt = 52683
+encoder samples_with_errors = 0
+records_cnt =  4863
+processing file:  ../data/new_datasets/ace2004.txt
+../data/new_datasets/ace2004.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 18
+gm_misses 78
+gm_this_file:  143
+recall %     :  32.86713286713287  %
+ground_truth_errors_cnt = 130
+cand_entities_not_in_universe_cnt = 27229
+encoder samples_with_errors = 0
+records_cnt =  36
+processing file:  ../data/new_datasets/aida_dev.txt
+../data/new_datasets/aida_dev.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 895
+gm_misses 1759
+gm_this_file:  3080
+recall %     :  13.831168831168828  %
+ground_truth_errors_cnt = 1562
+cand_entities_not_in_universe_cnt = 104884
+encoder samples_with_errors = 0
+records_cnt =  216
+processing file:  ../data/new_datasets/aida_test.txt
+../data/new_datasets/aida_test.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 959
+gm_misses 1530
+gm_this_file:  2931
+recall %     :  15.080177413851924  %
+ground_truth_errors_cnt = 1412
+cand_entities_not_in_universe_cnt = 100123
+encoder samples_with_errors = 0
+records_cnt =  231
+processing file:  ../data/new_datasets/aida_train.txt
+../data/new_datasets/aida_train.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 3689
+gm_misses 6713
+gm_this_file:  12282
+recall %     :  15.30695326494056  %
+ground_truth_errors_cnt = 6196
+cand_entities_not_in_universe_cnt = 409067
+encoder samples_with_errors = 0
+records_cnt =  946
+processing file:  ../data/new_datasets/aquaint.txt
+../data/new_datasets/aquaint.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 13
+gm_misses 109
+gm_this_file:  229
+recall %     :  46.724890829694324  %
+ground_truth_errors_cnt = 205
+cand_entities_not_in_universe_cnt = 22066
+encoder samples_with_errors = 0
+records_cnt =  50
+processing file:  ../data/new_datasets/clueweb.txt
+../data/new_datasets/clueweb.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 782
+gm_misses 2082
+gm_this_file:  4663
+recall %     :  38.58031310315248  %
+ground_truth_errors_cnt = 4285
+cand_entities_not_in_universe_cnt = 851885
+encoder samples_with_errors = 0
+records_cnt =  320
+processing file:  ../data/new_datasets/msnbc.txt
+../data/new_datasets/msnbc.txt  chunker parsing errors:  0
+max_mention_width_violations : 0
+gt_misses 102
+gm_misses 174
+gm_this_file:  349
+recall %     :  20.916905444126076  %
+ground_truth_errors_cnt = 328
+cand_entities_not_in_universe_cnt = 26143
+encoder samples_with_errors = 0
+records_cnt =  20
+processing file:  ../data/new_datasets/wikipedia.txt
+../data/new_datasets/wikipedia.txt  chunker parsing errors:  0
+max_mention_width_violations : 5
+gt_misses 2025
+gm_misses 4731
+gm_this_file:  6756
+recall %     :  0.0  %
+ground_truth_errors_cnt = 135
+cand_entities_not_in_universe_cnt = 232112
+encoder samples_with_errors = 0
+records_cnt =  320
+processing file:  ../data/new_datasets/TR_dev.txt
+../data/new_datasets/TR_dev.txt  chunker parsing errors:  0
+max_mention_width_violations : 2
+gt_misses 866
+gm_misses 2809
+gm_this_file:  4530
+recall %     :  18.87417218543046  %
+ground_truth_errors_cnt = 4150
+cand_entities_not_in_universe_cnt = 2509166
+encoder samples_with_errors = 0
+records_cnt =  735
+processing file:  ../data/new_datasets/TR_test.txt
+chunker parse error:  ('Dodge_Super_Bee', ['Les', 'Dodge', 'Super', 'Bee', 'étaient', 'des', 'muscle', 'cars', 'de', 'production', 'limitée', 'que', 'Dodge', ',', 'une', 'division', 'de', 'Chrysler', ',', 'a', 'produit', 'de', '1968', 'à', '1971', '.', 'La', '“mascotte”', 'du', 'logo', 'Super', 'Bee', 'a', 'été', 'ressuscitée', 'pour', 'agrémenter', 'les', 'custodes', 'des', 'modèles', 'Ram', 'Rumble', 'Bee', '2004', ',', 'et', 'des', 'Dodge', 'Charger', 'Super', 'Bee', 'du', 'millésime', '2007.Le', 'premier', 'Super', 'Bee', 'était', 'élaboré', 'à', 'partir', 'du', 'modèle', 'Dodge', 'Coronet', '.', 'Il', 'n’était', 'disponible', 'qu’en', 'coupé', 'et', 'en', 'cabriolet', '(très', 'rare)', 'et', 'construits', 'entre', '1968', 'et', '1970', '.', 'C’était', 'la', 'voiture', 'musclée', "d'entrée", 'de', 'gamme,', 'l’équivalent', 'du', 'modèle', 'Plymouth', 'Road', 'Runner', ',', 'et', 'coûtait', '3', '027', 'dollars', '.', 'On', 'pouvait', 'cocher', 'l’option', 'Hemi', ',', 'qui', 'a', 'elle', 'seule', 'augmentait', 'la', 'facture', 'de', '33', '%', '(seulement', '125', 'trouveront', 'acheteur).', 'Le', 'modèle', '1968', 'était', 'un', '2', 'portes', 'avec', 'deux', 'moteurs', 'au', 'choix', ';', 'le', 'V8', '383', 'Magnum', 'de', '335', 'hp,', 'et', 'l’optionnel', '426', 'Hemi', 'confessé', 'à', '425', 'hp.Les', 'Super', 'Bee', 'disposent', 'd’une', 'suspension', 'plus', 'robuste,', 'la', 'boîte', 'manuelle', 'optionnelle', 'à', 'quatre', 'rapports', 'Mopar', 'A-833', 'et', 'quatre', 'pneus', 'de', 'performants.', 'Sur', 'la', 'custode,', 'une', 'décalque', 'représentant', 'une', 'abeille', 'casquée', 'qui', 'charge', 'tête', 'baissée', 'est', 'harmonisée', 'aux', 'bandes', 'verticales', 'R/T.Une', 'version', 'hardtop', 'vient', 'rejoindre', 'le', 'coupé', 'au', 'catalogue', 'de', 'l’année', '1969', ',', 'avec', 'l’induction', 'd’air', 'frais', 'par', 'prises', 'd’air', 'sur', 'le', 'capot', 'nommée', '«\xa0Ramcharger', '».', 'Le', '«\xa0six-pack', '»', '(Trois', 'carburateurs', 'double', 'corps', '(barils),', 'une', 'version', 'vitaminée', 'du', 'moteur', 'Dodge', '440', 'pouces', 'cubes', 'est', 'venue', 's’ajouter', 'à', 'la', 'liste', 'd’options', 'en', 'milieu', "d'année.", 'Cette', 'option', 'coûtait', '463', 'dollars.', 'Les', 'modèles', 'de', 'l’année', '1969', 'a', 'donné', 'des', 'maux', 'de', 'tête', 'aux', 'acheteurs', 'de', 'Chrysler', 'avec', 'les', 'choix', 'de', 'moteurs.', 'Le', 'moteur', 'de', 'base', 'est', 'le', '383', 'pouces', 'cubes', 'hautes', 'performances,', 'le', '440', 'Six', 'Pack,', 'et', 'le', '426', 'Hemi.', 'Le', 'V8', '440', 'Magnum', 'n’était', 'pas', 'disponible', 'au', 'catalogue', 'des', 'options', 'et', 'était', 'réservé', 'aux', 'Coronet', 'R/T.', 'En', '1970,', 'les', 'Super', 'Bee', 'ont', 'reçu', 'une', 'calandre', 'retouchée', 'qui', 'représentait', 'deux', 'ovales', 'calquées', 'sur', 'la', 'forme', 'des', 'ailes', 'd‘abeille.', 'Ce', 'nouveau', 'look', 'a', 'rebuté', 'beaucoup', 'd’acheteurs', 'et', 'les', 'ventes', 'ont', 'drastiquement', 'chuté.', 'Malgré', 'ce', 'nouveau', 'look,', 'les', 'moteurs', 'aussi', 'bien', 'que', 'le', 'capot', '"ramcharger"', 'ont', 'été', 'recopiés', 'au', 'catalogue.Moteurs', ':Production', ':Alors', 'que', 'la', 'Dodge', 'Coronet', 'de', 'l’année', 'modèle', '1971', 'n’ait', 'été', 'disponible', 'qu’en', 'version', 'berline', 'quatre', 'portes', 'et', 'familiale', '(break,', 'station', 'wagon),', 'les', 'modèles', 'apposés', 'du', 'logo', 'Super', 'Bee', 'ont', 'été', 'le', 'Dodge', 'Charger', '.', 'La', 'Charger', 'ayant', 'déjà', 'sa', 'version', 'musclée', 'R/T,', 'les', 'Super', 'Bee', 'ont', 'été', 'rétrogradés', 'au', 'rang', 'd’entrée', 'de', 'gamme', 'et', 'coûtaient', '3.271', 'dollars.', '4.144', 'furent', 'construits,', 'alors', 'que', 'seulement', '22', 'l’ont', 'été', 'avec', 'un', 'moteur', 'Hemi', '.1971', 'est', 'la', 'première,', 'seule', 'et', 'dernière', 'année', 'où', 'le', 'moteur', 'de', 'base', 'des', 'Super', 'Bee', 'était', 'un', '340', 'pouces', 'cubes.', 'Nous', 'sommes', 'à', 'l’aube', 'de', 'la', 'première', 'grande', 'crise', 'du', 'pétrole.Le', 'moteur', 'V8', '440', 'Magnum', 'n’était', 'pas', 'disponible', 'en', 'option', 'sur', 'les', 'Super', 'Bee', '1971', '(la', 'description', 'sur', 'wikipédia', 'anglais', 'fait', 'mention', 'que', '26', 'ont', 'néanmoins', 'été', 'construits).Moteurs', ':Une', 'nouvelle', 'version', 'd’une', 'Super', 'Bee', 'est', 'disponible', 'en', '2007', ':', 'il', "s'agit", "d'une", 'version', 'très', 'limitée', 'de', 'la', 'Dodge', 'Charger', 'SRT8', 'piquée', 'par', 'une', 'abeille.', 'Elle', 'possède', 'une', 'superbe', 'carrosserie', 'de', 'couleur', 'jaune', 'Detonator', 'Yellow.', 'Pour', 'plus', 'd’exclusivité,', 'une', 'seule', 'a', 'été', 'rendue', 'disponible', 'avec', 'une', 'robe', 'noire', 'Chrystal', 'Prowler.', 'Ces', 'Dodge', 'Super', 'Bee', 'SRT8', 'sont', 'équipées', 'd’un', 'moteur', 'Hemi', '6,1', 'litres', 'de', '425', 'ch.<gallery>Image:SA550140.JPG|2007', 'Dodge', 'Charger', 'SRT-8', 'Super', 'Bee', '#711MMEND', 'Image:2007', 'Dodge', 'Charger', 'SRT-8', 'Super', 'Bee.jpg|2007', 'Dodge', 'Charger', 'SRT-8', 'Super', 'Bee', '#711MMEND', 'Image:SA550143.JPG|2007', 'Dodge', 'Charger', 'SRT-8', 'Super', 'Bee', '#711MMEND', '</gallery>Au', 'tournant', 'des', 'années', '70,', 'le', 'marché', 'mexicain', 'vendait', 'une', 'Dodge', 'Dart', 'à', 'laquelle', 'ils', 'ajoutaient', 'la', '“sauce”', 'Super', 'Bee', ';', 'ces', 'Super', 'Bee', 'étaient', 'élaborés', 'sur', 'la', 'plate-forme', 'compacte', 'Mopar', 'A', 'jusqu’en', '1976,', 'et', 'sur', 'la', 'plate-forme', 'F', '(en', 'maquillant', 'un', 'coupé', 'Dodge', 'Aspen', ')', 'entre', '1977-79', '(vendues', 'au', 'Mexique', 'comme', 'part', 'entière', 'de', 'la', 'série', 'Dodge', 'Valiant', 'Volare).'], [6, 193, 558, 570, 577], [8, 194], ['172856', '3628798', '13199', '13199', '13199'])
+../data/new_datasets/TR_test.txt  chunker parsing errors:  1
+max_mention_width_violations : 2
+gt_misses 1952
+gm_misses 5126
+gm_this_file:  8715
+recall %     :  18.783706253585773  %
+ground_truth_errors_cnt = 8077
+cand_entities_not_in_universe_cnt = 5080599
+encoder samples_with_errors = 0
+records_cnt =  1470
+processing file:  ../data/new_datasets/TR_train.txt
+../data/new_datasets/TR_train.txt  chunker parsing errors:  0
+max_mention_width_violations : 6
+gt_misses 9954
+gm_misses 14990
+gm_this_file:  35310
+recall %     :  29.357122628150666  %
+ground_truth_errors_cnt = 31278
+cand_entities_not_in_universe_cnt = 12876782
+encoder samples_with_errors = 0
+records_cnt =  4923

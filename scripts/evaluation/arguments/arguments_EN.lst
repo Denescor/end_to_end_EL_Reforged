@@ -1,0 +1,2 @@
+Kolitsas_EN19|baseline_wiki| --entity_vecs_name=ent_vecs_EN19  --wikiid2nnid_name=wikiid2nnid_EN19 --el_datasets=wiki_w2vEN19_dev_z_aida_w2vEN19_dev_z_aida_w2vEN19_test --checkpoint_model_num=89
+Kolitsas_EN19|baseline_wiki| --entity_vecs_name=ent_vecs_EN19  --wikiid2nnid_name=wikiid2nnid_EN19 --el_datasets=aida_w2vEN19_dev_z_aida_w2vEN19_test_z_wiki_w2vEN19_dev --checkpoint_model_num=89

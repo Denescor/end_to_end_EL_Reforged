@@ -1,0 +1,2 @@
+Kolitsas_FR|transfert_DB| --entity_vecs_name=ent_vecs_FR  --wikiid2nnid_name=wikiid2nnid_FR --el_datasets=DB_w2vFR_dev_z_DB_w2vFR_test_z_TR_w2vFR_dev_z_TR_w2vFR_test_z_wiki_w2vFR_dev --checkpoint_model_num=16
+Kolitsas_FR|baseline_DB| --entity_vecs_name=ent_vecs_FR  --wikiid2nnid_name=wikiid2nnid_FR --el_datasets=DB_w2vFR_dev_z_DB_w2vFR_test_z_TR_w2vFR_dev_z_TR_w2vFR_test_z_wiki_w2vFR_dev --checkpoint_model_num=16

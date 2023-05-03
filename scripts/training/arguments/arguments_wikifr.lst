@@ -1,0 +1,1 @@
+Kolitsas_FR|baseline_wiki| --entity_vecs_name=ent_vecs_FR.npy --wikiid2nnid_name=wikiid2nnid_FR.txt --train_datasets=wiki_w2vFR_train --el_datasets=wiki_w2vFR_train_z_wiki_w2vFR_dev_z_wiki_w2vFR_test --nepoch_max=150

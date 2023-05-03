@@ -1,0 +1,2 @@
+Kolitsas_EN19|transfert_aida| --entity_vecs_name=ent_vecs_EN19.npy --wikiid2nnid_name=wikiid2nnid_EN19.txt --train_datasets=aida_w2vEN19_train --el_datasets=aida_w2vEN19_train_z_aida_w2vEN19_dev_z_aida_w2vEN19_test --nepoch_max=50 --transfert_learning=True --pretrained_model=data/final_model_EN19.pkl
+Kolitsas_EN19|baseline_aida| --entity_vecs_name=ent_vecs_EN19.npy --wikiid2nnid_name=wikiid2nnid_EN19.txt --train_datasets=aida_w2vEN19_train --el_datasets=aida_w2vEN19_train_z_aida_w2vEN19_dev_z_aida_w2vEN19_test --nepoch_max=50
